@@ -4,6 +4,10 @@ body {
   color: #111;
   background: #fff;
 }
+/*自动套用到英文*/
+:lang(en){
+  font-family: 'Libre Baskerville', sans-serif;
+}
 header {
   background: #000;
   color: #fff;
