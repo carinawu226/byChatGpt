@@ -1,53 +1,56 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #111;
   background: #fff;
-  color: #333;
 }
 header {
+  background: #000;
+  color: #fff;
+  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #111;
-  color: #fff;
-  padding: 10px 20px;
 }
-.logo {
-  height: 40px;
+.brand {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 28px;
+  font-weight: bold;
 }
 nav a {
+  margin-left: 20px;
   color: #fff;
-  margin: 0 10px;
   text-decoration: none;
+  font-size: 16px;
 }
 .hero {
-  background: #f8e1e7;
-  text-align: center;
-  padding: 60px 20px;
+  position: relative;
 }
-.hero .btn {
-  padding: 10px 20px;
-  background: #d6336c;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.featured {
-  padding: 40px 20px;
+.hero .overlay {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-.product-grid {
-  display: flex;
-  gap: 20px;
+.hero .overlay h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 48px;
+  margin: 0;
 }
-.product-card {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
+.hero .overlay p {
+  font-size: 22px;
+  margin-top: 10px;
 }
 footer {
-  background: #111;
+  background: #000;
   color: #fff;
   text-align: center;
   padding: 20px;
+  font-size: 14px;
 }
